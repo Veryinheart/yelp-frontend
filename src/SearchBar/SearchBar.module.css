@@ -1,0 +1,12 @@
+.input-control{
+    min-width:320px
+}
+/* :global   mean do not prepend or append sth to the button, but u can change css in search-button */
+:global(.button).search-button{
+    background: #bd1f1f;
+    border:none;
+
+}
+:global(.icon){
+    color:white
+}
