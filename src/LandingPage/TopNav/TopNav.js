@@ -5,11 +5,12 @@ function TopNav() {
     return (
         <div className={styles['top-nav']}>
             <div className={styles.left}>
-                <span>write review</span>
+                <span>Write a review</span>
                 <span>Events</span>
+                <span>Talk</span>
             </div>
             <div className={styles.right}>
-                <span>login</span>
+                <span>Login</span>
                 <button className='button'>Sign up</button>
             </div>
         </div>
