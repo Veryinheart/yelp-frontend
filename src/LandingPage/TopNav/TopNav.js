@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './TopNav.module.css';
 
-function TopNav() {
+function TopNav() { 
     return (
         <div className={styles['top-nav']}>
             <div className={styles.left}>
